@@ -20,7 +20,7 @@ import com.employeemanagement.model.Employee;
 import com.employeemanagement.serviece.EmployeeService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin()
 @RequestMapping("/employee")
 
 public class EmployeeRessource {
